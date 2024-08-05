@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voice Note Taker</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/2.5.0/remixicon.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Voice Note Taker</h1>
+        <div class="button-container">
+            <button id="startButton" class="icon-button">
+                <i class="ri-record-circle-fill"></i> New Note
+            </button>
+            <button id="stopButton" class="icon-button" disabled>
+                <i class="ri-stop-circle-fill"></i> Stop
+            </button>
+        </div>
+        <div id="notesContainer"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
